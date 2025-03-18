@@ -15,7 +15,7 @@ jobs:
       - name: Setuup JDK 17
         uses: actions/setup-java@v3
         with:
-          distirbution: 'corretto'
+          distribution: 'corretto'
           java-version: 17
           
       - name: Unit Tests
